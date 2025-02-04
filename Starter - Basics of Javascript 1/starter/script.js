@@ -232,15 +232,32 @@
 // }
 
 // EXPRESSIONS
-8 + 7;
-1000;
-true && false && !false;
+// 8 + 7;
+// 1000;
+// true && false && !false;
 
-// STATEMENTS
-if (12 < 26) {
-    console.log('12 is smaller than 26')
-}
+// // STATEMENTS
+// if (12 < 26) {
+//     console.log('12 is smaller than 26')
+// }
 
 
-const str = 'hgsdv';
-console.log(`${str} apples`)
+// const str = 'hgsdv';
+// console.log(`${str} apples`)
+
+const age = 36;
+
+// age >= 18 
+//     ? console.log('You can drive a car')
+//     : console.log('You can not drive a car');
+
+const vehicle = age >= 18 ? 'car' : 'bicycle';
+console.log(vehicle);
+
+let vehicleTwo;
+if (age >= 18) vehicleTwo = 'car';
+else vehicleTwo = 'bicycle';
+
+console.log(vehicleTwo);
+
+console.log(`I can drive ${age >= 18 ? 'car' : 'bicycle'}`);
