@@ -204,42 +204,42 @@
 //     console.log('You should not drive')
 // };
 
-// const operator = '+';
+const operator = '+';
 
-// const number1 = 10;
-// const number2 = 5;
+const number1 = 10;
+const number2 = 5;
 
-// switch(operator) {
-//     case '+':
-//         console.log('addition');
-//         console.log(`${number1 + number2}`);
-//         break;
-//     case '-':
-//         console.log('addition');
-//         console.log(`${number1 - number2}`);
-//         break;
-//     case '*':
-//         console.log('addition');
-//         console.log(`${number1 * number2}`);
-//         break;
-//     case '/':
-//         console.log('addition');
-//         console.log(`${number1 / number2}`);
-//         break;
-//     default:
-//         console.log('Invalid operator')
-//         break;
-// }
+switch(operator) {
+    case '+':
+        console.log('addition');
+        console.log(`${number1 + number2}`);
+        break;
+    case '-':
+        console.log('addition');
+        console.log(`${number1 - number2}`);
+        break;
+    case '*':
+        console.log('addition');
+        console.log(`${number1 * number2}`);
+        break;
+    case '/':
+        console.log('addition');
+        console.log(`${number1 / number2}`);
+        break;
+    default:
+        console.log('Invalid operator')
+        break;
+}
 
 // EXPRESSIONS
-// 8 + 7;
-// 1000;
-// true && false && !false;
+8 + 7;
+1000;
+true && false && !false;
 
-// // STATEMENTS
-// if (12 < 26) {
-//     console.log('12 is smaller than 26')
-// }
+// STATEMENTS
+if (12 < 26) {
+    console.log('12 is smaller than 26')
+}
 
 
 // const str = 'hgsdv';

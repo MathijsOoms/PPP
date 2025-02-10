@@ -343,45 +343,45 @@
 
 //////// CONTINUE TO LOOPS /////////
 
-// const countryArray = [
-//     'Germany',
-//     'Europe',
-//     8000000,
-//     'Berlin',
-//     ['Munich', 'Dortmund', 'Hamburg'],
-//     100,
-// ];
+const countryArray = [
+    'Germany',
+    'Europe',
+    8000000,
+    'Berlin',
+    ['Munich', 'Dortmund', 'Hamburg'],
+    100,
+];
 
-// for (let index = countryArray.length - 1; index >= 0; index --) {
-//     console.log(index, countryArray[index]);
-// }
+for (let index = countryArray.length - 1; index >= 0; index --) {
+    console.log(index, countryArray[index]);
+}
 
-// for (let index = 1; index <= 3; index++) {
-//     console.log(`This is text loop ${index}`);
+for (let index = 1; index <= 3; index++) {
+    console.log(`This is text loop ${index}`);
 
-//     for (let rep = 1; rep <= 10; rep++) {
-//         console.log(`Loop ${index}: Text ${rep}`);
-//     }
-// }
+    for (let rep = 1; rep <= 10; rep++) {
+        console.log(`Loop ${index}: Text ${rep}`);
+    }
+}
 
 ///////// WHILE LOOP /////////
 
-// for (let index = 1; index <= 5; index++) {
-//     console.log(`For loop: Text ${index}`);
-// }
+for (let index = 1; index <= 5; index++) {
+    console.log(`For loop: Text ${index}`);
+}
 
-// let index = 1;
-// while (index <= 5) {
-//     // console.log(`While loop: Text ${index}`);
-//     index++;
-// }
+let index = 1;
+while (index <= 5) {
+    // console.log(`While loop: Text ${index}`);
+    index++;
+}
 
-// // Create random number until 4
-// let randomNumber = Math.trunc(Math.random() * 10) + 1;
+// Create random number until 4
+let randomNumber = Math.trunc(Math.random() * 10) + 1;
 
-// while (randomNumber !== 4) {
-//     console.log(randomNumber);
-//     randomNumber = Math.trunc(Math.random() * 10) + 1;
-// }
+while (randomNumber !== 4) {
+    console.log(randomNumber);
+    randomNumber = Math.trunc(Math.random() * 10) + 1;
+}
 
-// console.log('You reached the number you wanted')
+console.log('You reached the number you wanted')

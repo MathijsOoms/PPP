@@ -87,4 +87,4 @@ const getCountry = function (countryName) {
         container.insertAdjacentText('beforeend', errorMessage);
     }
 
-getCountry('iceland');
+getCountry('belgium');
